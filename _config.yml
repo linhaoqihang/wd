@@ -42,25 +42,20 @@ keywords: "Hexo, NexT"
 # Set rss to specific value if you have burned your feed already.
 rss:
 
-footer:
-  # Specify the date when the site was setup.
-  # If not defined, current year will be used.
-  #since: 2015
+footer:  # 底部信息区
+  since: 2020  # 建站时间
+  icon:
+    name: heart   # 图标名称
+    animated: true   # 开启动画
+    color: "#ff0000"   # 图标颜色
 
-  # Icon between year and copyright info.
-  icon: user
-
-  # If not defined, will be used `author` from Hexo main config.
-  copyright:
-  # -------------------------------------------------------------
-  # Hexo link (Powered by Hexo).
-  powered: true
+  powered:
+    enable: false  # 显示由 Hexo 强力驱动
+    version: false  # 隐藏 Hexo 版本号
 
   theme:
-    # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
-    # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    enable: false  # 显示所用的主题名称
+    version: false  # 隐藏主题版本号
   # -------------------------------------------------------------
   # Any custom text can be defined here.
   #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
